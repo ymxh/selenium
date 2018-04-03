@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test" parallel="tests" thread-count="2" data-provider-thread-count="2">
+	<test name="login">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="browserVersion" value="65.0.3325.181" />
+		<classes>
+			<class name="selenium.testng.LoginTest" />
+		</classes>
+	</test>
+	<test name="login1">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="browserVersion" value="55.0.2883.87" />
+		<classes>
+			<class name="selenium.testng.LoginTest" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="selenium.util.CustomReport"></listener>
+	</listeners>		
+</suite>

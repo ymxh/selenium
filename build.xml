@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Selenium" default="test" basedir=".">
+	<property name="lib_dir" value="lib"/>
+	<property name="TestNG_output_dir" value="test-output"/> 
+	
+	<path id="run_classpath">
+		<fileset dir="${lib_dir}" includes="*.jar"/>
+	</path>
+
+	<path id="class_flie_path">
+		<path refid="run_classpath"/>
+		<!-- pathelement指定位置，location表示指定的路径 -->
+		<pathelement location="${basedir}/bin"/>
+	</path>
+	
+	<taskdef resource="testngtasks" classpathref="run_classpath" />
+
+	<target name="clean">
+		<delete dir="${basedir}/bin/*" />	
+		<delete dir="${basedir}/test-output/*" />
+	</target>
+	
+	<target name="comple" depends="clean">
+		<javac srcdir="src" destdir="bin" debug="on" classpathref="run_classpath" encoding="utf-8" includeAntRuntime="false" />
+	</target>
+	
+	<target name="test" depends="comple">
+		<testng outputdir="${TestNG_output_dir}" classpathref="class_flie_path">
+			<xmlfileset dir="${basedir}" includes="testng.xml" />
+		</testng>
+	</target>
+</project>

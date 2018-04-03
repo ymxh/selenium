@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="27003" started-at="2018-04-03T07:47:40Z" finished-at="2018-04-03T07:48:07Z">
+    <groups>
+    </groups>
+    <test name="login1" duration-ms="26534" started-at="2018-04-03T07:47:40Z" finished-at="2018-04-03T07:48:06Z">
+      <class name="selenium.testng.LoginTest">
+        <test-method status="PASS" signature="TestBeforeMethod(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="TestBeforeMethod" is-config="true" duration-ms="4289" started-at="2018-04-03T15:47:40Z" finished-at="2018-04-03T15:47:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55.0.2883.87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBeforeMethod -->
+        <test-method status="PASS" signature="TestBeforeMethod(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="TestBeforeMethod" is-config="true" duration-ms="4164" started-at="2018-04-03T15:47:40Z" finished-at="2018-04-03T15:47:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55.0.2883.87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBeforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="login" duration-ms="8592" started-at="2018-04-03T15:47:44Z" data-provider="testProvider" finished-at="2018-04-03T15:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13060633859,1234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[登录失败，账号或密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="login" duration-ms="10467" started-at="2018-04-03T15:47:44Z" data-provider="testProvider" finished-at="2018-04-03T15:47:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13060633859,123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[登录成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="TestAfterMethod()[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="TestAfterMethod" is-config="true" duration-ms="769" started-at="2018-04-03T15:47:53Z" finished-at="2018-04-03T15:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAfterMethod -->
+        <test-method status="PASS" signature="TestBeforeMethod(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="TestBeforeMethod" is-config="true" duration-ms="3761" started-at="2018-04-03T15:47:53Z" finished-at="2018-04-03T15:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55.0.2883.87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBeforeMethod -->
+        <test-method status="PASS" signature="TestAfterMethod()[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="TestAfterMethod" is-config="true" duration-ms="785" started-at="2018-04-03T15:47:55Z" finished-at="2018-04-03T15:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAfterMethod -->
+        <test-method status="PASS" signature="TestBeforeMethod(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="TestBeforeMethod" is-config="true" duration-ms="3337" started-at="2018-04-03T15:47:55Z" finished-at="2018-04-03T15:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55.0.2883.87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBeforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="login" duration-ms="7088" started-at="2018-04-03T15:47:57Z" data-provider="testProvider" finished-at="2018-04-03T15:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[空,1234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="login" duration-ms="6824" started-at="2018-04-03T15:47:59Z" data-provider="testProvider" finished-at="2018-04-03T15:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13060633859,空]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="TestAfterMethod()[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="TestAfterMethod" is-config="true" duration-ms="697" started-at="2018-04-03T15:48:04Z" finished-at="2018-04-03T15:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAfterMethod -->
+        <test-method status="PASS" signature="TestAfterMethod()[pri:0, instance:selenium.testng.LoginTest@2c8d66b2]" name="TestAfterMethod" is-config="true" duration-ms="727" started-at="2018-04-03T15:48:06Z" finished-at="2018-04-03T15:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAfterMethod -->
+      </class> <!-- selenium.testng.LoginTest -->
+    </test> <!-- login1 -->
+    <test name="login" duration-ms="27003" started-at="2018-04-03T07:47:40Z" finished-at="2018-04-03T07:48:07Z">
+      <class name="selenium.testng.LoginTest">
+        <test-method status="PASS" signature="TestBeforeMethod(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="TestBeforeMethod" is-config="true" duration-ms="5135" started-at="2018-04-03T15:47:40Z" finished-at="2018-04-03T15:47:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65.0.3325.181]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBeforeMethod -->
+        <test-method status="PASS" signature="TestBeforeMethod(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="TestBeforeMethod" is-config="true" duration-ms="2222" started-at="2018-04-03T15:47:40Z" finished-at="2018-04-03T15:47:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65.0.3325.181]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBeforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="login" duration-ms="11186" started-at="2018-04-03T15:47:42Z" data-provider="testProvider" finished-at="2018-04-03T15:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13060633859,1234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[登录失败，账号或密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="login" duration-ms="8705" started-at="2018-04-03T15:47:45Z" data-provider="testProvider" finished-at="2018-04-03T15:47:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13060633859,123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[登录成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="TestAfterMethod()[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="TestAfterMethod" is-config="true" duration-ms="753" started-at="2018-04-03T15:47:53Z" finished-at="2018-04-03T15:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAfterMethod -->
+        <test-method status="PASS" signature="TestAfterMethod()[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="TestAfterMethod" is-config="true" duration-ms="685" started-at="2018-04-03T15:47:54Z" finished-at="2018-04-03T15:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAfterMethod -->
+        <test-method status="PASS" signature="TestBeforeMethod(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="TestBeforeMethod" is-config="true" duration-ms="1887" started-at="2018-04-03T15:47:54Z" finished-at="2018-04-03T15:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65.0.3325.181]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBeforeMethod -->
+        <test-method status="PASS" signature="TestBeforeMethod(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="TestBeforeMethod" is-config="true" duration-ms="2041" started-at="2018-04-03T15:47:54Z" finished-at="2018-04-03T15:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65.0.3325.181]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBeforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="login" duration-ms="9519" started-at="2018-04-03T15:47:56Z" data-provider="testProvider" finished-at="2018-04-03T15:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[空,1234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="login" duration-ms="9631" started-at="2018-04-03T15:47:56Z" data-provider="testProvider" finished-at="2018-04-03T15:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13060633859,空]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[用户名或密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="TestAfterMethod()[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="TestAfterMethod" is-config="true" duration-ms="786" started-at="2018-04-03T15:48:05Z" finished-at="2018-04-03T15:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAfterMethod -->
+        <test-method status="PASS" signature="TestAfterMethod()[pri:0, instance:selenium.testng.LoginTest@23223dd8]" name="TestAfterMethod" is-config="true" duration-ms="702" started-at="2018-04-03T15:48:06Z" finished-at="2018-04-03T15:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAfterMethod -->
+      </class> <!-- selenium.testng.LoginTest -->
+    </test> <!-- login -->
+  </suite> <!-- test -->
+</testng-results>

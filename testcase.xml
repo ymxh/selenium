@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase>
+	<Login>
+		<!-- param表示用例的入参，用逗号分隔，exp表示预期结果 -->
+		<case1 param="13060633859,123456" exp="登录成功" />
+		<case2 param="13060633859,1234567" exp="登录失败，账号或密码错误" />
+		<case3 param="空,1234567" exp="用户名或密码不能为空" />
+		<case4 param="13060633859,空" exp="用户名或密码不能为空" />
+	</Login>
+</testcase>

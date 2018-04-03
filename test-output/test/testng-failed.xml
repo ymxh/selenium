@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [test]" parallel="tests" data-provider-thread-count="2">
+  <parameter name="browserVersion" value="55.0.2883.87"/>
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="selenium.util.NewReport"/>
+  </listeners>
+  <test name="login1(failed)" parallel="tests">
+    <parameter name="browserVersion" value="55.0.2883.87"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="selenium.testng.LoginTest">
+        <methods>
+          <include name="TestAfterMethod"/>
+          <include name="TestAfterMethod"/>
+          <include name="TestBeforeMethod"/>
+          <include name="TestBeforeMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- selenium.testng.LoginTest -->
+    </classes>
+  </test> <!-- login1(failed) -->
+</suite> <!-- Failed suite [test] -->
